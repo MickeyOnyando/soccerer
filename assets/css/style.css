@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  text-decoration: none;
+}
+
+#home {
+  height: 100vh;
+}
+
+#about {
+  height: 100vh;
+}
+
+#sports {
+  height: 100vh;
+}
+
+#contact {
+  height: 100vh;
+}
+
+#sports {
+  height: 100vh;
+}
+
+.navbar {
+  text-decoration: none;
+  background-color: rgb(77, 77, 233);
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.logo a {
+  font-size: 45px;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo a:hover {
+  color: black;
+  background-color: #fff;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: #fff;
+  font-size: 18px;
+  margin-right: 10px;
+  padding: 20px;
+}
+
+li a:hover {
+  color: black;
+  background-color: #fff;
+}
+
+button {
+  padding: 15px;
+  border-radius: 30px;
+  border-style: none;
+  background-color: #fff;
+}
+
+button a {
+  color: black;
+}

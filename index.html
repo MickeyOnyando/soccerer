@@ -4,50 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Soccerer</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <!--Home-->
     <section id="home">
-      <nav>
-        <ul>
-          <li>Soccerer</li>
-          <li>About</li>
-          <li>Sports</li>
-          <li><button>Contact</button></li>
-        </ul>
+      <nav class="navbar">
+        <div class="navdiv">
+          <div class="logo"><a href="#">Soccerer</a></div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#sports">Sports</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <button><a href="#">SignIn</a></button>
+            <button><a href="#">SignUp</a></button>
+          </ul>
+        </div>
       </nav>
       <p>
         Fuel the nextGen's passion, Ignite their performance: Welcome to
         Soccerer
       </p>
-      <img src="assets/svg.jpg" alt="sports photo" srcset="" />
+      <img src="assets/images/svg.jpg" alt="sports photo" srcset="" />
     </section>
 
     <!--About-->
     <section id="about">
-      <h1>Our Sports Journey</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias
-        culpa exercitationem obcaecati commodi ex fugiat, earum nemo voluptas,
-        explicabo aperiam cumque dignissimos, enim nostrum. Consequuntur qui
-        eaque eos dolores repudiandae!
-      </p>
+      <div>
+        <h1>Our Sports Journey</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias
+          culpa exercitationem obcaecati commodi ex fugiat, earum nemo voluptas,
+          explicabo aperiam cumque dignissimos, enim nostrum. Consequuntur qui
+          eaque eos dolores repudiandae!
+        </p>
 
-      <br />
-      <hr />
+        <br />
+        <hr />
 
-      <h3>3+ years</h3>
-      <p>of successfull academy coaching</p>
+        <h3>3+ years</h3>
+        <p>of successfull academy coaching</p>
 
-      <h3>100+ players</h3>
-      <p>to reputable teams across the country</p>
+        <h3>100+ players</h3>
+        <p>to reputable teams across the country</p>
 
-      <h3>10+ trophies</h3>
-      <p>achieved while competing with other academies</p>
+        <h3>10+ trophies</h3>
+        <p>achieved while competing with other academies</p>
 
-      <h3>80% Success</h3>
-      <p>reflects our top notch training</p>
-      <img src="assets/arena2.jpg" alt="arena" srcset="" />
+        <h3>80% Success</h3>
+        <p>reflects our top notch training</p>
+        <img src="assets/images/arena2.jpg" alt="arena" />
+      </div>
     </section>
 
     <!--Sports-->
@@ -79,14 +87,16 @@
         Get in touch with us to give your kids quality training to achieve their
         dreams
       </p>
-      <form action="" method="post">
-        <input type="text" />
-        <input type="text" /><br />
-        <input type="email" /><br />
-        <input type="phone" /><br />
-        <textarea></textarea><br />
-        <input type="button" value="Send Message" />
-      </form>
+      <div>
+        <form action="" method="post">
+          <input type="text" id="fname" name="fname" />
+          <input type="text" id="lname" name="lname" /><br />
+          <input type="email" id="email" name="email" /><br />
+          <input type="phone" id="phone" name="phone" /><br />
+          <textarea name="Message" rows="10" cols="50"></textarea><br />
+          <input type="button" value="Send Message" />
+        </form>
+      </div>
     </section>
   </body>
 </html>
