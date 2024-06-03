@@ -74,3 +74,22 @@ button {
 button a {
   color: black;
 }
+
+.landing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  font-size: 45px;
+  font-weight: bold;
+  padding: 20px;
+  text-transform: uppercase;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+img {
+  padding: 25px;
+}
